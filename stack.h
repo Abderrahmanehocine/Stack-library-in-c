@@ -88,7 +88,6 @@ void pop() {
 	
    if(!isempty()) {
       data = *((int*)head+Top);
-      free(data);
       Top = Top-1;   
    } else {
       printf("Could not retrieve data, Stack is empty.\n");
